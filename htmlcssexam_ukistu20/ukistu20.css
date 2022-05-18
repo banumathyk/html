@@ -1,0 +1,15 @@
+.form{
+    background-color: aliceblue;
+}
+.blue{
+    padding: 15px;
+    box-sizing: content-box;
+    max-height: 2px;
+    max-width: 10px;
+    background-color: rgba(18, 120, 216, 0.952);
+}
+.h2{
+    color: rgba(152, 66, 233, 0.877);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(137, 43, 226, 0.356);
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML FORMS</title>
+    <style>
+        legend {
+            background-color: rgba(128, 226, 241, 0);
+            padding: 5px 10px;
+            margin-left: 40%;}
+
+        input {margin: 5px;}
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align:center;">Uki-Student</h2>
+    <form style="margin-left: 30%;">
+        <fieldset style="background-color: #62c1f8a2;
+        display: inline-block;"}>
+            <legend>Uki.Life</legend>
+            <table>
+        <tr>
+           <td> <label for="firstrname"><span style="margin-right:15px;">First Name</span></td>
+            <td><span>:</span></label></td>
+            <td colspan="2"><input type="text" "id=" firstname" name="firstname" placeholder="type here"></span></td>
+        </tr>
+        <tr>
+            <td><label for="">Last Name</label></td>
+            <td>:</td>
+            <td colspan="2"><input type="text" id="Lastname" name="Lastname" placeholder="type here"></td>
+        </tr>
+        <tr>
+            <td><label for="reg.no">Reg.No</label></td>
+            <td>:</td>
+            <td colspan="2"><input type="text" name="number" id="number" placeholder="type here"></td>          
+        </tr>
+        <tr>
+            <td><label for="dateofbirth">Date Of Birth</label></td>
+            <td>:</td>
+            <td colspan="2"><input type="text" name="dob" id="dob" placeholder="typehere"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>:</td>
+            <td><input type="radio" name="female" id="female"><label for="gender">Female</label></td>
+            
+            <td><input type="radio" name="male" id="male"><label for="gender">Male</label></td>
+            
+        </tr>
+        <tr>
+            <td><label for="favsubject">Fav Subject</label></td>
+            <td>:</td>
+            <td><label for="programming">Programming</label></td>
+            <td><input type="checkbox" name="programming" id="programming" value="programming"></td>
+            <td><label for="">Business</label></td>
+            <td><input type="checkbox" name="Business" id="Business" value="Business"></td>
+            <td><label for="">personal coaching</label></td>
+            <td><input type="checkbox" name="p.c" id="p.c" value="p.c"></td>
+            <td><label for="">English</label></td>
+            <td><input type="checkbox" name="english" id="english" value="english"></td>
+        </tr>
+        <tr>
+            <p style="font-size: small; align-items: center;"></p>Feedback</p>
+        </tr>
+
+        <tr><textarea style="align-items: center;" name="feedback" id="feedback" cols="50" rows="10"></textarea><br>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" id="submit" value="SUBMIT"></td>  
+            <td><input type="reset" name="reset" id="reset" value="RESET"></td>
+        </tr> 
+            </table>
+
+        </fieldset>
+</body>
+
+</html>
+</form>
